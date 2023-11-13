@@ -1,0 +1,31 @@
+.menu {
+    width: fit-content;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 100;
+    list-style-type: none;
+    border: 20%;
+  }
+  
+  .menu > li {
+    margin: 0;
+  
+    background-color: white;
+  }
+  
+  .menu > li:hover {
+    background-color: #dc8add;
+    color: white;
+  }
+  
+  .menu > li > button {
+    text-align: left;
+  
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+  }

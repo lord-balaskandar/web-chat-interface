@@ -1,17 +1,17 @@
 .chat {
-    height: fit-content;
-    position: sticky;
-    display: block;
-    z-index: -1;
-    padding-top:8%;
-    padding-bottom: 5%;
-    flex-direction: column-reverse;
+  height: fit-content;
+  position: sticky;
+  display: block;
+  z-index: -1;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  flex-direction: column-reverse;
 }
 
 .chatDate {
-    color: gray;
+  color: gray;
 }
 
 .chatSpacer {
-    margin: 50px;
+  margin: 50px;
 }

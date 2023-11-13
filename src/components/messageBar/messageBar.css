@@ -1,14 +1,14 @@
 .messageBar {
-    z-index: 100;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    -webkit-box-shadow: 0 -4px 6px -6px #222;
-    -moz-box-shadow: 0 -4px 6px -6px #222;
-    box-shadow: 0 -4px 6px -6px #222;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0 -4px 6px -6px #222;
+  -moz-box-shadow: 0 -4px 6px -6px #222;
+  box-shadow: 0 -4px 6px -6px #222;
   height: fit-content;
 }
 
@@ -21,7 +21,6 @@
   outline: none;
   border: none;
   padding: 0 10px;
-  
 }
 
 .inputButton {
@@ -34,4 +33,6 @@
   border: none;
   padding: 0 10px;
   background-color: #dc8add;
+  cursor: pointer;
+
 }

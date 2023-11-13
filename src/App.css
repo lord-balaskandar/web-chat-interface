@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .headerContainer {
   position: fixed;
   top: 0;
@@ -13,8 +12,11 @@
   margin-top: 0;
 }
 
-
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
+
+
+
+
