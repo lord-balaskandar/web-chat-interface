@@ -1,6 +1,6 @@
 import './chatBubble.css'
 
-function ChatBubble({children, rec}: {children: String, rec: boolean}) {
+function ChatBubble({children, rec, id}: {children: String, rec: boolean, id: Number}) {
     return <div className={"bubble" + (rec ? " left" : " right")} >
         <div className='chatText'>
             {children}
