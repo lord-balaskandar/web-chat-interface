@@ -2,6 +2,19 @@
   text-align: center;
 }
 
-.chat {
- 
+
+.headerContainer {
+  position: fixed;
+  top: 0;
+}
+
+.messageBarContainer {
+  position: fixed;
+  margin-top: 0;
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
 }

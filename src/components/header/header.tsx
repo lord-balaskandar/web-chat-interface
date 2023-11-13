@@ -2,8 +2,8 @@ import profilePic from './../../pp.jpg'
 import './header.css'
 
 function Header() {
-return <div className='header'>
-      <div className="backButton">{" <"}</div>
+return <div className="headerContainer">  <div className='header'>
+      <button className="backButton">{" <"}</button>
           <div className='details'>
           <img className="pp" src={profilePic}/>
 
@@ -11,9 +11,10 @@ return <div className='header'>
   Thanushen
 </div>
           </div>
-          <div className="backButton">{"..."}</div>
+          <button className="backButton">{"..."}</button>
 
-      </div>
+      </div>      </div>
+
 }
 
 export default Header

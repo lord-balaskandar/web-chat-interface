@@ -9,7 +9,6 @@
     color: white;
     margin: 10px;
     padding: 5px;
-    
   }
   .bubble:after {
     content: '';
@@ -32,10 +31,11 @@
 .bubble.left {
     background-color: gray;
     color: white;
+    margin-right: 50%;
 }
 
 .bubble.right {
-    margin-left: 90%;
+    margin-left: 70%;
 }
 
 .bubble.left:after {

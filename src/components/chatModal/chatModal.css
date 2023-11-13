@@ -1,0 +1,9 @@
+.chat {
+    height: fit-content;
+    position: sticky;
+    display: block;
+    z-index: -1;
+    padding-top:8%;
+    padding-bottom: 5%;
+    flex-direction: column-reverse;
+}
